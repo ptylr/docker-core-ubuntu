@@ -12,8 +12,9 @@ https://www.linkedin.com/in/ptylr/
 # ptylr/docker-core-ubuntu
 Extends ubuntu:22.04 with custom configurations required for additional chained images.
 
-```angular2html
-docker push ptylr/docker-core-ubuntu:22.04
+```
+ubuntu:22.04
+  -> docker-core-ubuntu
 ```
 
 # Licence
