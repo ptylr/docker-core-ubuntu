@@ -17,7 +17,7 @@ MAINTAINER Paul Taylor <me@ptylr.com>
 ENV REFRESHED_AT 2024-07-05
 
 RUN apt-get -yqq update
-RUN apt-get -yqq install sudo curl
+RUN apt-get -yqq install sudo curl nano
 
 
 # Tweak root profile
